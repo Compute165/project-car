@@ -94,3 +94,83 @@ function keyDown(e) {
         right2();
     }
 }
+
+function up1() {
+    if (car1Y >= 0) {
+        car1Y = car1Y - 10;
+        console.log("up  x = " + car1X + "y = " + car1Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function down1() {
+    if (car1Y <= 510) {
+        car1Y = car1Y + 10;
+        console.log("down  x = " + car1X + "y = " + car1Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function left1() {
+    if (car1X >= 0) {
+        car1X = car1X - 10;
+        console.log("left  x = " + car1X + "y = " + car1Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function right1() {
+    if (car1X <= 700) {
+        car1X = car1X + 10;
+        console.log("right  x = " + car1X + "y = " + car1Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function up2() {
+    if (car2Y >= 0) {
+        car2Y = car2Y - 10;
+        console.log("up  x = " + car2X + "y = " + car2Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function down2() {
+    if (car2Y <= 510) {
+        car2Y = car2Y + 10;
+        console.log("down  x = " + car2X + "y = " + car2Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function left2() {
+    if (car2X >= 0) {
+        car2X = car2X - 10;
+        console.log("left  x = " + car2X + "y = " + car2Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
+
+function right2() {
+    if (car2X <= 700) {
+        car2X = car2X + 10;
+        console.log("right  x = " + car2X + "y = " + car2Y);
+        drawBackg();
+        drawcar1();
+        drawcar2();
+    }
+}
